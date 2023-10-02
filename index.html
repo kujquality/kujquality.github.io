@@ -29,6 +29,10 @@
       <!-- LAYOUT -->
       <div class="row justify-content-center">
         <div class="col-md-16">
+          <div class="alert alert-success alert-dismissible fade show my-alert d-none" role="alert">
+            <strong>Thank you!</strong> your form is submitted successfully.
+            <button type="button" class="btn-close p-2" data-bs-dismiss="alert" aria-label="Close"></button>
+          </div>
           <form id="myForm" class="row g-2" method="post" action="https://script.google.com/macros/s/AKfycbztPLEOHCzWkiKWfin15msHlHmqDhWoMhaGQ789gpEb2Gqq0kwi3kwDZjbC99h6AtGhCw/exec" name="contact-form">
             <div class="col-md-6">
               <div class="form-floating">
@@ -105,8 +109,9 @@
                       <th scope="col">Flavor</th>
                       <th scope="col">Saltiness</th>
                       <th scope="col">Cheese Flavor</th>
-                      <th scope="col">General</th>
                       <th scope="col">Color</th>
+                      <th scope="col">General</th>
+
                       <th scope="col">Remarks</th>
                     </tr>
                   </thead>
@@ -125,8 +130,9 @@
                       <td><input type="number" step="0.5" class="form-control" name="Flavor1" data-required /></td>
                       <td><input type="number" step="0.5" class="form-control" name="Saltiness1" data-required /></td>
                       <td><input type="number" step="0.5" class="form-control" name="CheeseFlavor1" data-required /></td>
-                      <td><input type="number" step="0.5" class="form-control" name="General1" data-required /></td>
                       <td><input type="number" step="0.5" class="form-control" name="Color1" data-required /></td>
+                      <td><input type="number" step="0.5" class="form-control" name="General1" data-required /></td>
+
                       <td>
                         <div>
                           <textarea class="form-control" name="Remarks1"></textarea>
@@ -147,8 +153,9 @@
                       <td><input type="number" step="0.5" class="form-control" name="Flavor2" data-required /></td>
                       <td><input type="number" step="0.5" class="form-control" name="Saltiness2" data-required /></td>
                       <td><input type="number" step="0.5" class="form-control" name="CheeseFlavor2" data-required /></td>
-                      <td><input type="number" step="0.5" class="form-control" name="General2" data-required /></td>
                       <td><input type="number" step="0.5" class="form-control" name="Color2" data-required /></td>
+                      <td><input type="number" step="0.5" class="form-control" name="General2" data-required /></td>
+
                       <td>
                         <div>
                           <textarea class="form-control" name="Remarks2"></textarea>
@@ -169,8 +176,9 @@
                       <td><input type="number" step="0.5" class="form-control" name="Flavor3" data-required /></td>
                       <td><input type="number" step="0.5" class="form-control" name="Saltiness3" data-required /></td>
                       <td><input type="number" step="0.5" class="form-control" name="CheeseFlavor3" data-required /></td>
-                      <td><input type="number" step="0.5" class="form-control" name="General3" data-required /></td>
                       <td><input type="number" step="0.5" class="form-control" name="Color3" data-required /></td>
+                      <td><input type="number" step="0.5" class="form-control" name="General3" data-required /></td>
+
                       <td>
                         <div>
                           <textarea class="form-control" name="Remarks3"></textarea>
@@ -217,8 +225,9 @@
                         <th scope="col">Flavor</th>
                         <th scope="col">Saltiness</th>
                         <th scope="col">Cheese Flavor</th>
-                        <th scope="col">General</th>
                         <th scope="col">Color</th>
+                        <th scope="col">General</th>
+
                         <th scope="col">Remarks</th>
                       </tr>
                     </thead>
@@ -237,8 +246,9 @@
                         <td><input type="number" step="0.5" class="form-control" name="Flavor4" data-required /></td>
                         <td><input type="number" step="0.5" class="form-control" name="Saltiness4" data-required /></td>
                         <td><input type="number" step="0.5" class="form-control" name="CheeseFlavor4" data-required /></td>
-                        <td><input type="number" step="0.5" class="form-control" name="General4" data-required /></td>
                         <td><input type="number" step="0.5" class="form-control" name="Color4" data-required /></td>
+                        <td><input type="number" step="0.5" class="form-control" name="General4" data-required /></td>
+
                         <td>
                           <div>
                             <textarea class="form-control" name="Remarks4"></textarea>
@@ -259,8 +269,9 @@
                         <td><input type="number" step="0.5" class="form-control" name="Flavor5" data-required /></td>
                         <td><input type="number" step="0.5" class="form-control" name="Saltiness5" data-required /></td>
                         <td><input type="number" step="0.5" class="form-control" name="CheeseFlavor5" data-required /></td>
-                        <td><input type="number" step="0.5" class="form-control" name="General5" data-required /></td>
                         <td><input type="number" step="0.5" class="form-control" name="Color5" data-required /></td>
+                        <td><input type="number" step="0.5" class="form-control" name="General5" data-required /></td>
+
                         <td>
                           <div>
                             <textarea class="form-control" name="Remarks5"></textarea>
@@ -281,8 +292,9 @@
                         <td><input type="number" step="0.5" class="form-control" name="Flavor6" data-required /></td>
                         <td><input type="number" step="0.5" class="form-control" name="Saltiness6" data-required /></td>
                         <td><input type="number" step="0.5" class="form-control" name="CheeseFlavor6" data-required /></td>
-                        <td><input type="number" step="0.5" class="form-control" name="General6" data-required /></td>
                         <td><input type="number" step="0.5" class="form-control" name="Color6" data-required /></td>
+                        <td><input type="number" step="0.5" class="form-control" name="General6" data-required /></td>
+
                         <td>
                           <div>
                             <textarea class="form-control" name="Remarks6"></textarea>
@@ -329,8 +341,9 @@
                         <th scope="col">Flavor</th>
                         <th scope="col">Saltiness</th>
                         <th scope="col">Cheese Flavor</th>
-                        <th scope="col">General</th>
                         <th scope="col">Color</th>
+                        <th scope="col">General</th>
+
                         <th scope="col">Remarks</th>
                       </tr>
                     </thead>
@@ -349,8 +362,9 @@
                         <td><input type="number" step="0.5" class="form-control" name="Flavor7" data-required /></td>
                         <td><input type="number" step="0.5" class="form-control" name="Saltiness7" data-required /></td>
                         <td><input type="number" step="0.5" class="form-control" name="CheeseFlavor7" data-required /></td>
-                        <td><input type="number" step="0.5" class="form-control" name="General7" data-required /></td>
                         <td><input type="number" step="0.5" class="form-control" name="Color7" data-required /></td>
+                        <td><input type="number" step="0.5" class="form-control" name="General7" data-required /></td>
+
                         <td>
                           <div>
                             <textarea class="form-control" name="Remarks7"></textarea>
@@ -371,8 +385,9 @@
                         <td><input type="number" step="0.5" class="form-control" name="Flavor8" data-required /></td>
                         <td><input type="number" step="0.5" class="form-control" name="Saltiness8" data-required /></td>
                         <td><input type="number" step="0.5" class="form-control" name="CheeseFlavor8" data-required /></td>
-                        <td><input type="number" step="0.5" class="form-control" name="General8" data-required /></td>
                         <td><input type="number" step="0.5" class="form-control" name="Color8" data-required /></td>
+                        <td><input type="number" step="0.5" class="form-control" name="General8" data-required /></td>
+
                         <td>
                           <div>
                             <textarea class="form-control" name="Remarks8"></textarea>
@@ -393,8 +408,9 @@
                         <td><input type="number" step="0.5" class="form-control" name="Flavor9" data-required /></td>
                         <td><input type="number" step="0.5" class="form-control" name="Saltiness9" data-required /></td>
                         <td><input type="number" step="0.5" class="form-control" name="CheeseFlavor9" data-required /></td>
-                        <td><input type="number" step="0.5" class="form-control" name="General9" data-required /></td>
                         <td><input type="number" step="0.5" class="form-control" name="Color9" data-required /></td>
+                        <td><input type="number" step="0.5" class="form-control" name="General9" data-required /></td>
+
                         <td>
                           <div>
                             <textarea class="form-control" name="Remarks9"></textarea>
@@ -441,8 +457,9 @@
                         <th scope="col">Flavor</th>
                         <th scope="col">Saltiness</th>
                         <th scope="col">Cheese Flavor</th>
-                        <th scope="col">General</th>
                         <th scope="col">Color</th>
+                        <th scope="col">General</th>
+
                         <th scope="col">Remarks</th>
                       </tr>
                     </thead>
@@ -461,8 +478,9 @@
                         <td><input type="number" step="0.5" class="form-control" name="Flavor10" data-required /></td>
                         <td><input type="number" step="0.5" class="form-control" name="Saltiness10" data-required /></td>
                         <td><input type="number" step="0.5" class="form-control" name="CheeseFlavor10" data-required /></td>
-                        <td><input type="number" step="0.5" class="form-control" name="General10" data-required /></td>
                         <td><input type="number" step="0.5" class="form-control" name="Color10" data-required /></td>
+                        <td><input type="number" step="0.5" class="form-control" name="General10" data-required /></td>
+
                         <td>
                           <div>
                             <textarea class="form-control" name="Remarks10"></textarea>
@@ -483,8 +501,9 @@
                         <td><input type="number" step="0.5" class="form-control" name="Flavor11" data-required /></td>
                         <td><input type="number" step="0.5" class="form-control" name="Saltiness11" data-required /></td>
                         <td><input type="number" step="0.5" class="form-control" name="CheeseFlavor11" data-required /></td>
-                        <td><input type="number" step="0.5" class="form-control" name="General11" data-required /></td>
                         <td><input type="number" step="0.5" class="form-control" name="Color11" data-required /></td>
+                        <td><input type="number" step="0.5" class="form-control" name="General11" data-required /></td>
+
                         <td>
                           <div>
                             <textarea class="form-control" name="Remarks11"></textarea>
@@ -505,8 +524,9 @@
                         <td><input type="number" step="0.5" class="form-control" name="Flavor12" data-required /></td>
                         <td><input type="number" step="0.5" class="form-control" name="Saltiness12" data-required /></td>
                         <td><input type="number" step="0.5" class="form-control" name="CheeseFlavor12" data-required /></td>
-                        <td><input type="number" step="0.5" class="form-control" name="General12" data-required /></td>
                         <td><input type="number" step="0.5" class="form-control" name="Color12" data-required /></td>
+                        <td><input type="number" step="0.5" class="form-control" name="General12" data-required /></td>
+
                         <td>
                           <div>
                             <textarea class="form-control" name="Remarks12"></textarea>
@@ -553,8 +573,9 @@
                         <th scope="col">Flavor</th>
                         <th scope="col">Saltiness</th>
                         <th scope="col">Cheese Flavor</th>
-                        <th scope="col">General</th>
                         <th scope="col">Color</th>
+                        <th scope="col">General</th>
+
                         <th scope="col">Remarks</th>
                       </tr>
                     </thead>
@@ -573,8 +594,9 @@
                         <td><input type="number" step="0.5" class="form-control" name="Flavor13" data-required /></td>
                         <td><input type="number" step="0.5" class="form-control" name="Saltiness13" data-required /></td>
                         <td><input type="number" step="0.5" class="form-control" name="CheeseFlavor13" data-required /></td>
-                        <td><input type="number" step="0.5" class="form-control" name="General13" data-required /></td>
                         <td><input type="number" step="0.5" class="form-control" name="Color13" data-required /></td>
+                        <td><input type="number" step="0.5" class="form-control" name="General13" data-required /></td>
+
                         <td>
                           <div>
                             <textarea class="form-control" name="Remarks13"></textarea>
@@ -595,8 +617,9 @@
                         <td><input type="number" step="0.5" class="form-control" name="Flavor14" data-required /></td>
                         <td><input type="number" step="0.5" class="form-control" name="Saltiness14" data-required /></td>
                         <td><input type="number" step="0.5" class="form-control" name="CheeseFlavor14" data-required /></td>
-                        <td><input type="number" step="0.5" class="form-control" name="General14" data-required /></td>
                         <td><input type="number" step="0.5" class="form-control" name="Color14" data-required /></td>
+                        <td><input type="number" step="0.5" class="form-control" name="General14" data-required /></td>
+
                         <td>
                           <div>
                             <textarea class="form-control" name="Remarks14"></textarea>
@@ -617,8 +640,9 @@
                         <td><input type="number" step="0.5" class="form-control" name="Flavor15" data-required /></td>
                         <td><input type="number" step="0.5" class="form-control" name="Saltiness15" data-required /></td>
                         <td><input type="number" step="0.5" class="form-control" name="CheeseFlavor15" data-required /></td>
-                        <td><input type="number" step="0.5" class="form-control" name="General15" data-required /></td>
                         <td><input type="number" step="0.5" class="form-control" name="Color15" data-required /></td>
+                        <td><input type="number" step="0.5" class="form-control" name="General15" data-required /></td>
+
                         <td>
                           <div>
                             <textarea class="form-control" name="Remarks15"></textarea>
@@ -665,8 +689,9 @@
                         <th scope="col">Flavor</th>
                         <th scope="col">Saltiness</th>
                         <th scope="col">Cheese Flavor</th>
-                        <th scope="col">General</th>
                         <th scope="col">Color</th>
+                        <th scope="col">General</th>
+
                         <th scope="col">Remarks</th>
                       </tr>
                     </thead>
@@ -685,8 +710,9 @@
                         <td><input type="number" step="0.5" class="form-control" name="Flavor16" data-required /></td>
                         <td><input type="number" step="0.5" class="form-control" name="Saltiness16" data-required /></td>
                         <td><input type="number" step="0.5" class="form-control" name="CheeseFlavor16" data-required /></td>
-                        <td><input type="number" step="0.5" class="form-control" name="General16" data-required /></td>
                         <td><input type="number" step="0.5" class="form-control" name="Color16" data-required /></td>
+                        <td><input type="number" step="0.5" class="form-control" name="General16" data-required /></td>
+
                         <td>
                           <div>
                             <textarea class="form-control" name="Remarks16"></textarea>
@@ -707,8 +733,9 @@
                         <td><input type="number" step="0.5" class="form-control" name="Flavor17" data-required /></td>
                         <td><input type="number" step="0.5" class="form-control" name="Saltiness17" data-required /></td>
                         <td><input type="number" step="0.5" class="form-control" name="CheeseFlavor17" data-required /></td>
-                        <td><input type="number" step="0.5" class="form-control" name="General17" data-required /></td>
                         <td><input type="number" step="0.5" class="form-control" name="Color17" data-required /></td>
+                        <td><input type="number" step="0.5" class="form-control" name="General17" data-required /></td>
+
                         <td>
                           <div>
                             <textarea class="form-control" name="Remarks17"></textarea>
@@ -729,8 +756,9 @@
                         <td><input type="number" step="0.5" class="form-control" name="Flavor18" data-required /></td>
                         <td><input type="number" step="0.5" class="form-control" name="Saltiness18" data-required /></td>
                         <td><input type="number" step="0.5" class="form-control" name="CheeseFlavor18" data-required /></td>
-                        <td><input type="number" step="0.5" class="form-control" name="General18" data-required /></td>
                         <td><input type="number" step="0.5" class="form-control" name="Color18" data-required /></td>
+                        <td><input type="number" step="0.5" class="form-control" name="General18" data-required /></td>
+
                         <td>
                           <div>
                             <textarea class="form-control" name="Remarks18"></textarea>
@@ -743,6 +771,14 @@
               </div>
             </div>
 
+            <div class="col-12 d-grid gap-2 d-md-flex justify-content-md-end">
+              <button class="btn btn-primary btn-danger btn-reset" type="reset">Reset</button>
+              <button class="btn btn-primary btn-submit me-md-2" type="submit">Submit</button>
+              <button class="btn btn-primary d-none btn-loading" type="button" disabled>
+                <span class="spinner-grow spinner-grow-sm" aria-hidden="true"></span>
+                <span role="status">Loading...</span>
+              </button>
+            </div>
             <script>
               let container1 = document.getElementById("form1");
               let container2 = document.getElementById("form2");
@@ -890,22 +926,27 @@
               }
               const scriptURL = "https://script.google.com/macros/s/AKfycbztPLEOHCzWkiKWfin15msHlHmqDhWoMhaGQ789gpEb2Gqq0kwi3kwDZjbC99h6AtGhCw/exec";
               const form = document.forms["contact-form"];
+              const btnSubmit = document.querySelector(".btn-submit");
+              const btnLoading = document.querySelector(".btn-loading");
+              const myAlert = document.querySelector(".my-alert");
 
               form.addEventListener("submit", (e) => {
                 e.preventDefault();
+                // pas submit diklik
+                // tampilkan tombol loading dan hilangkan tombol submit
+                btnLoading.classList.toggle("d-none");
+                btnSubmit.classList.toggle("d-none");
                 fetch(scriptURL, { method: "POST", body: new FormData(form) })
-                  .then((response) => alert("Thank you! your form is submitted successfully."))
-                  .then(() => {
-                    window.location.reload();
+                  .then((response) => {
+                    btnLoading.classList.toggle("d-none");
+                    btnSubmit.classList.toggle("d-none");
+                    myAlert.classList.toggle("d-none");
+                    form.reset();
                   })
+
                   .catch((error) => console.error("Error!", error.message));
               });
             </script>
-
-            <div class="col-12 d-grid gap-2 d-md-flex justify-content-md-end">
-              <button class="btn btn-primary btn-danger btn-reset" type="reset">Reset</button>
-              <button class="btn btn-primary btn-submit me-md-2" type="submit">Submit</button>
-            </div>
           </form>
         </div>
       </div>
