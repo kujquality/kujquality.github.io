@@ -10,14 +10,19 @@
   </head>
   <body>
     <form class="passform" action="cheesegrading.html" onsubmit="return passcheck()">
-      <div class="row text-center form-floating position-absolute top-50 start-50 translate-middle">
-        <a class="navbar-brand" href="#">
-          <img src="img/Kraft_foods_logo2012.png" alt="Bootstrap" width="16%" />
-          <img src="img/mondlz.png" alt="Bootstrap" width="20%" />
-        </a>
-        <div class="col">
-          <input placeholder="Password" type="password" class="form-control mb-3" required id="pass1" />
-          <input class="btn btn-primary me-md-2" type="submit" />
+      <div>
+        <div class="shadow-lg p-3 mb-5 bg-body-tertiary rounded text-center position-absolute top-50 start-50 translate-middle">
+          <a class="navbar-brand" href="#">
+            <img class="mb-3" src="img/Kraft_foods_logo2012.png" alt="Bootstrap" width="70" />
+            <img class="mb-3" src="img/Mondelez.png" alt="Bootstrap" width="74" />
+          </a>
+          <div class="form-floating">
+            <input placeholder="Password" type="password" class="form-control mb-3" required id="pass1" />
+            <label class="text-center" for="pass1">Password</label>
+          </div>
+          <div class="col-12 d-grid gap-2 d-md-flex justify-content-md-center">
+            <button class="btn btn-primary btn-submit me-md-2 p-1" type="submit">Submit</button>
+          </div>
         </div>
       </div>
     </form>

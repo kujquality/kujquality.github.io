@@ -32,7 +32,7 @@
             <strong>Thank you!</strong> your form is submitted successfully.
             <button type="button" class="btn-close p-2" data-bs-dismiss="alert" aria-label="Close"></button>
           </div>
-          <form id="myForm" class="row g-2" method="post" action="https://script.google.com/macros/s/AKfycbztPLEOHCzWkiKWfin15msHlHmqDhWoMhaGQ789gpEb2Gqq0kwi3kwDZjbC99h6AtGhCw/exec" name="contact-form">
+          <form id="myForm" class="row g-2" method="post" action="https://script.google.com/macros/s/AKfycby7v1ogRck7oe5Hm6vWlY84MaPNGqkKAWHa9se-142Q_qtD81CU15WcaYd6kHJxDAg02g/exec" name="contact-form">
             <div class="col-md-6">
               <div class="form-floating">
                 <input type="text" class="form-control" list="datalistOptions" name="Nama" id="nama" placeholder="Ketik untuk mencari..." autocomplete="name" required />
@@ -42,7 +42,6 @@
                   <option value="Asih"></option>
                   <option value="Ilahi"></option>
                   <option value="Rani"></option>
-                  <option value="Agus"></option>
                 </datalist>
                 <div class="invalid-feedback">Wajib diisi.</div>
               </div>
@@ -52,9 +51,15 @@
               <div class="form-floating">
                 <select class="form-select" name="Departemen" id="department" required>
                   <option selected disabled value>Choose...</option>
+                  <option value="QS">QS</option>
+                  <option value="Produksi">Produksi</option>
                   <option value="MBD">MBD</option>
-                  <option value="QM">QM</option>
                   <option value="RND">RND</option>
+                  <option value="Plant Management">Plant Management</option>
+                  <option value="ISS">ISS</option>
+                  <option value="Finance">Finance</option>
+                  <option value="HSE">HSE</option>
+                  <option value="Other">Other</option>
                 </select>
                 <div class="invalid-feedback">Required.</div>
                 <label for="department">Departemen</label>
@@ -78,12 +83,20 @@
                 <label for="SKU1" class="form-label">SKU 1</label>
                 <select id="SKU1" class="form-select" name="SKU1" required>
                   <option value="" disabled selected>Choose...</option>
-                  <option value="FILLING CHEESE L4">FILLING CHEESE L4</option>
-                  <option value="KRAFT CHEDDAR 48X160 GR">KRAFT CHEDDAR 48X160 GR</option>
-                  <option value="SL EDEN 10 200G">SL EDEN 10 200G</option>
+                  <option value="Singles 5' Reg 75gr">Singles 5' Reg 75gr</option>
+                  <option value="Singles 8' Reg 120gr">Singles 8' Reg 120gr</option>
+                  <option value="Singles Eden'5 100gr">Singles Eden'5 100gr</option>
+                  <option value="Singles Eden'10 200gr">Singles Eden'10 200gr</option>
+                  <option value="Cheddar Mini 30g">Cheddar Mini 30g</option>
                   <option value="LOAF L4">LOAF L4</option>
-                  <option value="SL 10 Reg">SL 10 Reg</option>
-                  <option value="AIO 160G L6 Hart">AIO 160G L6 Hart</option>
+                  <option value="Martabak L4">Martabak L4</option>
+                  <option value="FILLING CHEESE L4">FILLING CHEESE L4</option>
+                  <option value="LOAF All in one">LOAF All in one</option>
+                  <option value="Spreadable">Spreadable</option>
+                  <option value="Cheddar Midi 70gr">Cheddar Midi 70gr</option>
+                  <option value="QM Mozza 165gr L5">QM Mozza 165gr L5</option>
+                  <option value="BP 150gr L6 Hart">BP 150gr L6 Hart</option>
+                  <option value="AIO 150G L6 Hart">AIO 150G L6 Hart</option>
                 </select>
                 <div class="invalid-feedback">Required.</div>
               </div>
@@ -194,12 +207,20 @@
                 <label for="SKU2" class="form-label">SKU 2</label>
                 <select id="SKU2" class="form-select" name="SKU2">
                   <option>Choose...</option>
-                  <option value="FILLING CHEESE L4">FILLING CHEESE L4</option>
-                  <option value="KRAFT CHEDDAR 48X160 GR">KRAFT CHEDDAR 48X160 GR</option>
-                  <option value="SL EDEN 10 200G">SL EDEN 10 200G</option>
+                  <option value="Singles 5' Reg 75gr">Singles 5' Reg 75gr</option>
+                  <option value="Singles 8' Reg 120gr">Singles 8' Reg 120gr</option>
+                  <option value="Singles Eden'5 100gr">Singles Eden'5 100gr</option>
+                  <option value="Singles Eden'10 200gr">Singles Eden'10 200gr</option>
+                  <option value="Cheddar Mini 30g">Cheddar Mini 30g</option>
                   <option value="LOAF L4">LOAF L4</option>
-                  <option value="SL 10 Reg">SL 10 Reg</option>
-                  <option value="AIO 160G L6 Hart">AIO 160G L6 Hart</option>
+                  <option value="Martabak L4">Martabak L4</option>
+                  <option value="FILLING CHEESE L4">FILLING CHEESE L4</option>
+                  <option value="LOAF All in one">LOAF All in one</option>
+                  <option value="Spreadable">Spreadable</option>
+                  <option value="Cheddar Midi 70gr">Cheddar Midi 70gr</option>
+                  <option value="QM Mozza 165gr L5">QM Mozza 165gr L5</option>
+                  <option value="BP 150gr L6 Hart">BP 150gr L6 Hart</option>
+                  <option value="AIO 150G L6 Hart">AIO 150G L6 Hart</option>
                 </select>
                 <div class="invalid-feedback">Data-required.</div>
               </div>
@@ -311,12 +332,20 @@
                 <label for="SKU3" class="form-label">SKU 3</label>
                 <select id="SKU3" name="SKU3" class="form-select">
                   <option>Choose...</option>
-                  <option value="FILLING CHEESE L4">FILLING CHEESE L4</option>
-                  <option value="KRAFT CHEDDAR 48X160 GR">KRAFT CHEDDAR 48X160 GR</option>
-                  <option value="SL EDEN 10 200G">SL EDEN 10 200G</option>
+                  <option value="Singles 5' Reg 75gr">Singles 5' Reg 75gr</option>
+                  <option value="Singles 8' Reg 120gr">Singles 8' Reg 120gr</option>
+                  <option value="Singles Eden'5 100gr">Singles Eden'5 100gr</option>
+                  <option value="Singles Eden'10 200gr">Singles Eden'10 200gr</option>
+                  <option value="Cheddar Mini 30g">Cheddar Mini 30g</option>
                   <option value="LOAF L4">LOAF L4</option>
-                  <option value="SL 10 Reg">SL 10 Reg</option>
-                  <option value="AIO 160G L6 Hart">AIO 160G L6 Hart</option>
+                  <option value="Martabak L4">Martabak L4</option>
+                  <option value="FILLING CHEESE L4">FILLING CHEESE L4</option>
+                  <option value="LOAF All in one">LOAF All in one</option>
+                  <option value="Spreadable">Spreadable</option>
+                  <option value="Cheddar Midi 70gr">Cheddar Midi 70gr</option>
+                  <option value="QM Mozza 165gr L5">QM Mozza 165gr L5</option>
+                  <option value="BP 150gr L6 Hart">BP 150gr L6 Hart</option>
+                  <option value="AIO 150G L6 Hart">AIO 150G L6 Hart</option>
                 </select>
               </div>
             </div>
@@ -427,12 +456,20 @@
                 <label for="SKU4" class="form-label">SKU 4</label>
                 <select id="SKU4" name="SKU4" class="form-select">
                   <option>Choose...</option>
-                  <option value="FILLING CHEESE L4">FILLING CHEESE L4</option>
-                  <option value="KRAFT CHEDDAR 48X160 GR">KRAFT CHEDDAR 48X160 GR</option>
-                  <option value="SL EDEN 10 200G">SL EDEN 10 200G</option>
+                  <option value="Singles 5' Reg 75gr">Singles 5' Reg 75gr</option>
+                  <option value="Singles 8' Reg 120gr">Singles 8' Reg 120gr</option>
+                  <option value="Singles Eden'5 100gr">Singles Eden'5 100gr</option>
+                  <option value="Singles Eden'10 200gr">Singles Eden'10 200gr</option>
+                  <option value="Cheddar Mini 30g">Cheddar Mini 30g</option>
                   <option value="LOAF L4">LOAF L4</option>
-                  <option value="SL 10 Reg">SL 10 Reg</option>
-                  <option value="AIO 160G L6 Hart">AIO 160G L6 Hart</option>
+                  <option value="Martabak L4">Martabak L4</option>
+                  <option value="FILLING CHEESE L4">FILLING CHEESE L4</option>
+                  <option value="LOAF All in one">LOAF All in one</option>
+                  <option value="Spreadable">Spreadable</option>
+                  <option value="Cheddar Midi 70gr">Cheddar Midi 70gr</option>
+                  <option value="QM Mozza 165gr L5">QM Mozza 165gr L5</option>
+                  <option value="BP 150gr L6 Hart">BP 150gr L6 Hart</option>
+                  <option value="AIO 150G L6 Hart">AIO 150G L6 Hart</option>
                 </select>
               </div>
             </div>
@@ -543,12 +580,20 @@
                 <label for="SKU5" class="form-label">SKU 5</label>
                 <select id="SKU5" name="SKU5" class="form-select">
                   <option>Choose...</option>
-                  <option value="FILLING CHEESE L4">FILLING CHEESE L4</option>
-                  <option value="KRAFT CHEDDAR 48X160 GR">KRAFT CHEDDAR 48X160 GR</option>
-                  <option value="SL EDEN 10 200G">SL EDEN 10 200G</option>
+                  <option value="Singles 5' Reg 75gr">Singles 5' Reg 75gr</option>
+                  <option value="Singles 8' Reg 120gr">Singles 8' Reg 120gr</option>
+                  <option value="Singles Eden'5 100gr">Singles Eden'5 100gr</option>
+                  <option value="Singles Eden'10 200gr">Singles Eden'10 200gr</option>
+                  <option value="Cheddar Mini 30g">Cheddar Mini 30g</option>
                   <option value="LOAF L4">LOAF L4</option>
-                  <option value="SL 10 Reg">SL 10 Reg</option>
-                  <option value="AIO 160G L6 Hart">AIO 160G L6 Hart</option>
+                  <option value="Martabak L4">Martabak L4</option>
+                  <option value="FILLING CHEESE L4">FILLING CHEESE L4</option>
+                  <option value="LOAF All in one">LOAF All in one</option>
+                  <option value="Spreadable">Spreadable</option>
+                  <option value="Cheddar Midi 70gr">Cheddar Midi 70gr</option>
+                  <option value="QM Mozza 165gr L5">QM Mozza 165gr L5</option>
+                  <option value="BP 150gr L6 Hart">BP 150gr L6 Hart</option>
+                  <option value="AIO 150G L6 Hart">AIO 150G L6 Hart</option>
                 </select>
               </div>
             </div>
@@ -659,12 +704,20 @@
                 <label for="SKU6" class="form-label">SKU 6</label>
                 <select id="SKU6" name="SKU6" class="form-select">
                   <option>Choose...</option>
-                  <option value="FILLING CHEESE L4">FILLING CHEESE L4</option>
-                  <option value="KRAFT CHEDDAR 48X160 GR">KRAFT CHEDDAR 48X160 GR</option>
-                  <option value="SL EDEN 10 200G">SL EDEN 10 200G</option>
+                  <option value="Singles 5' Reg 75gr">Singles 5' Reg 75gr</option>
+                  <option value="Singles 8' Reg 120gr">Singles 8' Reg 120gr</option>
+                  <option value="Singles Eden'5 100gr">Singles Eden'5 100gr</option>
+                  <option value="Singles Eden'10 200gr">Singles Eden'10 200gr</option>
+                  <option value="Cheddar Mini 30g">Cheddar Mini 30g</option>
                   <option value="LOAF L4">LOAF L4</option>
-                  <option value="SL 10 Reg">SL 10 Reg</option>
-                  <option value="AIO 160G L6 Hart">AIO 160G L6 Hart</option>
+                  <option value="Martabak L4">Martabak L4</option>
+                  <option value="FILLING CHEESE L4">FILLING CHEESE L4</option>
+                  <option value="LOAF All in one">LOAF All in one</option>
+                  <option value="Spreadable">Spreadable</option>
+                  <option value="Cheddar Midi 70gr">Cheddar Midi 70gr</option>
+                  <option value="QM Mozza 165gr L5">QM Mozza 165gr L5</option>
+                  <option value="BP 150gr L6 Hart">BP 150gr L6 Hart</option>
+                  <option value="AIO 150G L6 Hart">AIO 150G L6 Hart</option>
                 </select>
               </div>
             </div>
@@ -923,7 +976,7 @@
                   element.setAttribute("required", "required");
                 });
               }
-              const scriptURL = "https://script.google.com/macros/s/AKfycbztPLEOHCzWkiKWfin15msHlHmqDhWoMhaGQ789gpEb2Gqq0kwi3kwDZjbC99h6AtGhCw/exec";
+              const scriptURL = "https://script.google.com/macros/s/AKfycby7v1ogRck7oe5Hm6vWlY84MaPNGqkKAWHa9se-142Q_qtD81CU15WcaYd6kHJxDAg02g/exec";
               const form = document.forms["contact-form"];
               const btnSubmit = document.querySelector(".btn-submit");
               const btnLoading = document.querySelector(".btn-loading");

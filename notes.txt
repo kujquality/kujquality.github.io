@@ -1,0 +1,29 @@
+ACCOUNT AND PASSWORD
+1. Email dan Google
+  kujquality@gmail.com
+  pass: KUJQuality
+2. Github
+  kujquality@gmail.com
+  pass: KUJQuality2023
+3. Website Grading
+  pass: Quality
+4. Sheet Data (Cheese Grading)
+  pass: Quality
+
+LINKS
+1. Files
+https://drive.google.com/drive/folders/14R5VS9chUVI9jvr8hg1jvNem_Y3b749-?usp=sharing
+
+Alur Posting Website
+1. Folder berisi file html diupload ke repository github menggunakan aplikasi git (windows),
+tutorial lengkap ada di sini https://youtu.be/65Jv9Y13eVo?si=dMHFl7SLRl9s5or5 
+2. Setelah website terupload, form dihubungkan dengan google sheet sebagai wadah data,
+tutorial lengkap ada di sini https://youtu.be/2XosKncBoQ4?si=oHOFHKV0TbLm4o_h 
+*file html dan kode apps script dapat didownload di sini
+https://drive.google.com/drive/folders/14X5y8Vc0QUrvPs8nBEnxCksO8v4VXDjr?usp=sharing 
+
+NOTES:
+1. file yang ada di dalam folder website (Website Grading) tidak boleh dihapus karena saling berhubungan sehingga rentan terjadi error
+2. index.html adalah halaman utama (password) sedangkan cheesegrading.html adalah halaman terusan
+3. Sheet Rata-rata dan RHR perlu diupdate secara manual dengan menarik (drag) rumus ke cell bawah
+  (block seluruh cell kemudian drag)
